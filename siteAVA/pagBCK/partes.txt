@@ -1,0 +1,52 @@
+footer {
+  background-color: #2b848c;
+}
+
+footer img{
+  width: 130px;
+}
+
+footer p{
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+footer i{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 20px;
+  position: relative;
+  top: 3px;
+}
+
+footer span{
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 12px;
+}
+
+footer a:hover i, footer a:hover span{
+  color: white;
+}
+
+---------------------------------
+
+
+  <footer id="footer" class="footer">
+    <div class="container py-5">
+      <div class="row justify-content-between align-items-center">
+        <div class="col-3 col-sm-4 text-center">
+          <img src="assets/images/facebook.png" alt="">
+        </div>
+        <div class="col-3 col-sm-4 text-center">
+          <img src="assets/images/marca_ava.png" alt="">
+        </div>
+        <div class="col-6 col-sm-4 text-center px-1">
+          <div class="d-inline-block">
+            <p>testo qualquer</p>
+            <a href="https://www.instagram.com/segurosava/" target="_blank" class="mr-3"><i class="fab fa-instagram"></i> <span>novo tesxte</span></a>
+            <a href="https://segurosava.com.br/" target="_blank"><i class="fas fa-globe"></i> <span>qualquerrrr</span></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
